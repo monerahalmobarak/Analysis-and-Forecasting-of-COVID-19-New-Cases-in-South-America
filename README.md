@@ -1,6 +1,6 @@
 # Analysis-and-Forecasting-of-COVID-19-New-Cases-in-South-America
 
-The "DS424-Project Report" focuses on the analysis and forecasting of COVID-19 new cases in South America. The main components of the project include:
+The "Project Report" focuses on the analysis and forecasting of COVID-19 new cases in South America. The main components of the project include:
 
 Data Preparation: Transforming raw COVID-19 data into a structured and clean dataset, addressing missing values, selecting relevant columns, and converting data into a tsibble object for predictive analysis.
 
