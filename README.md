@@ -1,17 +1,41 @@
-# Analysis-and-Forecasting-of-COVID-19-New-Cases-in-South-America
+# Analysis and Forecasting of COVID-19 New Cases in South America
 
-The "Project Report" focuses on the analysis and forecasting of COVID-19 new cases in South America. The main components of the project include:
+## Overview
+This project focuses on the analysis and forecasting of COVID-19 new cases across South America. By leveraging statistical and machine learning techniques, the project aims to provide insights into the progression of the pandemic and enable accurate predictions for informed decision-making.
 
-Data Preparation: Transforming raw COVID-19 data into a structured and clean dataset, addressing missing values, selecting relevant columns, and converting data into a tsibble object for predictive analysis.
+---
 
-Data Visualization: Utilizing various plots (like lag plot, autocorrelation function plots, and seasonal plots) to visualize and understand the data. Mathematical transformations (logarithmic, square root, etc.) were applied to enhance data visualization for time series analysis.
+## Project Objectives
+1. Analyze the spread and trends of COVID-19 new cases across various countries in South America.
+2. Apply forecasting techniques to predict future case numbers.
+3. Provide visualizations and insights to support public health initiatives and policies.
 
-Model Specification: The report describes various models used for forecasting, including the Seasonal Naive (Snaive) Model, Naive Method, Regression Model, and Time Series Linear Model (TSLM). Each model's suitability and effectiveness for forecasting COVID-19 data are discussed.
+---
 
-Model Estimation: This section details the process of forecasting future COVID-19 cases in South America, using different models. It includes data splitting into training and test sets, model training, and generating forecasts.
+## Installation
 
-Performance Evaluation: The models are evaluated using metrics like Mean Error (ME), Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and Auto-Correlation Function (ACF1). The report concludes with recommendations for the most suitable model based on these evaluations.
+### Prerequisites
+- Python 3.8+
+- Git
+  
+---
 
-Producing Forecast: Generating forecasting plots for each model to assess their performance against actual data.
+### Data Sources
+- The dataset is sourced from reputable COVID-19 tracking platforms such as [Johns Hopkins University](https://coronavirus.jhu.edu/) and [Our World in Data](https://ourworldindata.org/coronavirus).
 
-The report is comprehensive, covering every aspect from data preparation to forecasting and evaluation of different models for analyzing COVID-19 data in South America.
+---
+
+## Results
+The project demonstrates:
+1. Clear trends and patterns in COVID-19 new cases.
+2. Accurate forecasts for selected time periods with evaluation metrics such as RMSE and MAPE.
+3. Visual insights using matplotlib and seaborn libraries.
+
+---
+
+## References
+- [Johns Hopkins University COVID-19 Dashboard](https://coronavirus.jhu.edu/)
+- [Our World in Data](https://ourworldindata.org/coronavirus)
+- [ARIMA Documentation](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html)
+- [Prophet Documentation](https://facebook.github.io/prophet/)
+
